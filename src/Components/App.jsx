@@ -5,7 +5,7 @@ import Header from "./Header.jsx";
 import Sidebar from "./Sidebar.jsx";
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
 
       {/* {App Body} */}
