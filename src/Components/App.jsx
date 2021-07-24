@@ -4,9 +4,12 @@ import "./App.css";
 import Header from "./Header.jsx";
 import Sidebar from "./Sidebar.jsx";
 import Feed from "./Feed";
-
+import { useSelector } from "react-redux";
 
 function App() {
+
+  const user = useSelector
+
   return (
     <div className="app">
       <Header />
